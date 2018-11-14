@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 3030",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -p 3038",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   }
 }
